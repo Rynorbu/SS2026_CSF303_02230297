@@ -11,11 +11,17 @@ int main() {
     cout << "Total Length   : " << Name.length() << "\n"; 
 
     //   Display the name converted to uppercase and to lowercase.
-    cout << (char)toupper(Name);
-    cout << "Uppercase      : " << Name << "\n";
+    string uppercase = "";
+    for (char c : Name) {
+        uppercase += (char)toupper(c);
+    }
+    cout << "Uppercase      : " << uppercase << "\n";
 
-    char c = (char) tolower(Name);
-    cout << "Lowercase      : " << Name << "\n";
+    string lowercase = "";
+    for (char c : Name) {
+        lowercase += (char)tolower(c);
+    }
+    cout << "Lowercase      : " << lowercase << "\n";
     // Display your initials by extracting the first character of each word.
     string Initials;
     bool newWord = true;
