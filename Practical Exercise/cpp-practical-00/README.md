@@ -310,7 +310,7 @@ This exercise introduces object-oriented programming (OOP) through class design,
 
 **Real-world Application:** Classes model real-world entities, making code intuitive and maintainable. In production systems, classes encapsulate business logic, database entities, and service layers, forming the backbone of scalable software architecture.
 
-**Design Pattern Recognition:** This exercise demonstrates the Single Responsibility Principle—the Student class manages student data and nothing else. As systems grow, this principle prevents classes from becoming unwieldy god objects.
+**Design Pattern Recognition:** This exercise demonstrates the Single Responsibility Principle, the Student class manages student data and nothing else. As systems grow, this principle prevents classes from becoming unwieldy god objects.
 
 **Class features:**
 - Stores student name, number, and marks
@@ -339,7 +339,7 @@ This practical exercise provided comprehensive coverage of C++ fundamentals, pro
 
 1. **Language Fundamentals:** Mastered variable declaration, operators, control structures, and I/O operations that form the basis of all C++ programs.
 
-2. **Data Structures:** Progressed from primitive types to arrays, strings, and vectors—understanding the trade-offs between fixed and dynamic structures.
+2. **Data Structures:** Progressed from primitive types to arrays, strings, and vectors, understanding the trade-offs between fixed and dynamic structures.
 
 3. **Control Flow:** Implemented conditional logic and loops, recognizing when to apply each construct and understanding their computational complexity.
 
@@ -356,10 +356,10 @@ This practical exercise provided comprehensive coverage of C++ fundamentals, pro
 - Designing clean class interfaces that hide implementation details
 
 **Technical Growth:**
-This exercise reinforced that programming is not just about syntax—it's about choosing appropriate data structures, understanding algorithmic complexity, writing maintainable code, and thinking in abstractions. The progression from "making it work" to "making it efficient and clean" reflects the mindset required for professional software development.
+This exercise reinforced that programming is not just about syntax it's about choosing appropriate data structures, understanding algorithmic complexity, writing maintainable code, and thinking in abstractions. The progression from "making it work" to "making it efficient and clean" reflects the mindset required for professional software development.
 
 **Future Applications:**
-These foundational concepts extend to advanced topics: templates enable generic programming, inheritance and polymorphism enable extensible designs, and understanding memory management prepares for systems programming. The principles learned here—encapsulation, modularity, algorithmic thinking—are language-agnostic and applicable across the software engineering discipline.
+These foundational concepts extend to advanced topics: templates enable generic programming, inheritance and polymorphism enable extensible designs, and understanding memory management prepares for systems programming. The principles learned here encapsulation, modularity, algorithmic thinking—are language-agnostic and applicable across the software engineering discipline.
 
 **Self-Assessment:**
 Completing these exercises has built confidence in C++ fundamentals while revealing areas for deeper study (move semantics, smart pointers, template metaprogramming). The iterative process of coding, debugging, and refining has strengthened problem-solving skills and reinforced the importance of testing and validation.
