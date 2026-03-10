@@ -15,7 +15,7 @@ int main() {
   Student_no = 2230297;
   cout << "Student No  : " << Student_no << "\n";
 
-    Course = "BE Software Engineering";
+  Course = "BE Software Engineering";
   cout << "Course      : " << Course << "\n\n";
   cout << "============================================" << "\n";
   return 0;

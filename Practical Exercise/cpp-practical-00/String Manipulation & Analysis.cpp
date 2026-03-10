@@ -7,10 +7,10 @@ int main() {
   Name = "Ranjung Yeshi Norbu";
   cout << "Full Name      : " << Name << "\n";
 
-//   display the total length 
-  cout << "Total Length   : " << Name.length() << "\n"; 
+    //   display the total length 
+    cout << "Total Length   : " << Name.length() << "\n"; 
 
-//   Display the name converted to uppercase and to lowercase.
+    //   Display the name converted to uppercase and to lowercase.
     cout << (char)toupper(Name);
     cout << "Uppercase      : " << Name << "\n";
 

@@ -12,14 +12,14 @@ int main() {
         Digit_sum += temp % 10;  
         temp /= 10;             
     }
-    cout << "Digit Sum     : " << Digit_sum << "\n";
+    cout << "Digit Sum         : " << Digit_sum << "\n";
     if (Student_no % 2 == 0) {
-        cout << "Odd / Even          : Even" << "\n";
+        cout << "Odd / Even        : Even" << "\n";
     } else {
-        cout << "Odd / Even          : Odd" << "\n";
+        cout << "Odd / Even        : Odd" << "\n";
     }
-    cout << "Remainder (% 7) : " << Student_no % 7 << "\n";
-    cout << "Multiplied by 3    : " << Student_no * 3 <<
+    cout << "Remainder (% 7)   : " << Student_no % 7 << "\n";
+    cout << "Multiplied by 3   : " << Student_no * 3 <<
     "\n";
 
   return 0;
